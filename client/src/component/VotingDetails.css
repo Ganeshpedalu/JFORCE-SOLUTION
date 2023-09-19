@@ -1,0 +1,39 @@
+
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: #343a40; 
+    color: #fff; 
+  }
+  
+  
+  h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 44%;
+  }
+  
+
+  .candidate-box {
+    background-color: #1e2226; 
+    border: 1px solid #343a40; 
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .candidate-box p:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .candidate-box p:last-child {
+    color: #007bff;
+    font-size: 18px;
+  }
+  

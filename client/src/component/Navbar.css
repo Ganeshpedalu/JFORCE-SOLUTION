@@ -1,0 +1,49 @@
+/* Navbar Container */
+.navbar {
+  background-color: #007bff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Brand Link */
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Navbar Toggle Button (for mobile) */
+.navbar-toggler-icon {
+  border: none;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/* Active Link (Current Page) */
+.navbar-nav .nav-item.active .nav-link {
+  font-weight: bold;
+}
+
+/* Mobile Menu Links */
+.collapse.navbar-collapse .navbar-nav .nav-link {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.collapse.navbar-collapse .navbar-nav .nav-link:last-child {
+  border-bottom: none;
+}
+
+/* Left-align Login and Signup links */
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
